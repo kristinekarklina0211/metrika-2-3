@@ -74,8 +74,6 @@
 }
 
 .gallery__controls-wrapper {
-    margin-left: -10px;
-    
     position: absolute;
     bottom: 162px;
     width: 100%;
@@ -103,6 +101,10 @@
 
 .gallery__control:hover {
     opacity: 0.5;
+}
+
+.gallery__control-prev {
+    margin-left: -10px;
 }
 
 .gallery__control-next {
@@ -146,9 +148,11 @@
     }
 
     .gallery__controls-wrapper {
-        margin-left: -9px;
-
         bottom: 152px;
+    }
+
+    .gallery__control-prev {
+        margin-left: -9px;
     }
 
 }
@@ -189,7 +193,6 @@
     }
 
     .gallery__controls-wrapper {
-        margin-left: -6px;
         bottom: 50%;
     }
     
@@ -201,5 +204,13 @@
     .gallery__control {
         width: 30px;
         height: 30px;
+    }
+
+    .gallery__control-prev {
+        margin-left: -6px;
+    }
+
+    .gallery__control-next {
+        margin-right: -7px;
     }
 }

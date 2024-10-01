@@ -87,8 +87,7 @@ p {
 @media (max-width: 1199px) {
   .container {
     width: 100%;
-    padding-right: 17px;
-    padding-left: 15px;
+    padding: 0 17px 0 15px;
   }
 
   h1 {
@@ -109,8 +108,7 @@ p {
 @media (max-width: 767px) {
   .container {
     width: 100%;
-    padding-right: 12px;
-    padding-left: 13px;
+    padding: 0 12px 0 13px;
   }
 
   h1 {
