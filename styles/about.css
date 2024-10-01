@@ -36,7 +36,7 @@
 }
 
 @media (max-width: 1199px) {
-  .about__inner {
+  .about {
     margin-bottom: 120px;
   }
 
@@ -51,7 +51,7 @@
 }
 
 @media (max-width: 767px) {
-  .about__inner {
+  .about {
     margin-bottom: 80px;
   }
 

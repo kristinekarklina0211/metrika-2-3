@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 1199px) {
-  .hero__inner {
+  .hero {
     margin-bottom: 120px;
   }
 
@@ -43,7 +43,7 @@
 }
 
 @media (max-width: 767px) {
-  .hero__inner {
+  .hero {
     margin-bottom: 80px;
   }
 
