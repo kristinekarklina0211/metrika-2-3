@@ -1,0 +1,31 @@
+.header {
+  margin: 33px 0 70px 0;
+}
+
+.header__nav {
+  float: right;
+}
+
+.header__nav li {
+  margin-right: 60px;
+
+  float: left;
+}
+
+.header__nav li:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.header__nav a {
+  color: #121212;
+  font-size: 18px;
+  line-height: 25px;
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.header__nav a:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
