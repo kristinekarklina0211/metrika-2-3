@@ -25,6 +25,12 @@
   letter-spacing: -1.35px;
 }
 
+.reviews__box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
 .reviews__text {
   font-size: 22px;
   line-height: normal;
@@ -32,15 +38,16 @@
 }
 
 @media (max-width: 1199px) {
+  
   .reviews__inner {
     padding: 120px 0;
   }
 
-  .row {
+  .reviews__row {
     row-gap: 80px;
   }
 
-  .col {
+  .reviews__col {
     width: calc(50% - 5px);
   }
 
@@ -64,12 +71,12 @@
     padding: 80px 0;
   }
 
-  .row {
+  .reviews__row {
     flex-direction: column;
   }
 
-  .col,
-  .col:last-child:nth-child(2n + 1) {
+  .reviews__col,
+  .reviews__col:last-child:nth-child(2n + 1) {
     width: 100%;
   }
 
